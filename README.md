@@ -16,7 +16,7 @@ This repository is designed to provide a professional, ground-floor introduction
    - Explore basic interactions with the AI
 
 
-2. [**002-tutorial**](labs/002-tutorial..ipynb): Working with prompt templates and RunnableSequence - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Agentic-Insights/langchain-labs/blob/main/labs/002-tutorial.ipynb) 
+2. [**002-tutorial**](labs/002-tutorial.ipynb): Working with prompt templates and RunnableSequence - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Agentic-Insights/langchain-labs/blob/main/labs/002-tutorial.ipynb) 
    - Learn how to load prompts from external files
    - Understand and implement ChatPromptTemplates
    - Explore the concept of RunnableSequence for creating complex workflows\
