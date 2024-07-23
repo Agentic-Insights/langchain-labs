@@ -6,50 +6,9 @@ Welcome to the LangChain 101 repository! This project serves as a beginner's tut
 
 This repository is designed to provide a professional, ground-floor introduction to modern LangChain development, focusing on agentic AI applications. The examples and tutorials here use the latest LangChain APIs and best practices, ensuring you're learning with up-to-date and non-deprecated methods.
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- Python 3.10+
-- pip (Python package manager)
-
-### Installation
-
-1. Clone this repository: 
-   ```
-   git clone https://github.com/Agentic-Insights/langchain-labs
-   cd langchain-labs
-   ```
-2. Create a conda environment (optional but recommended):
-   ```
-   conda create -n langchain-labs python=3.10
-   conda activate langchain-labs
-   ```
-
-3. Install the required packages:
-   ```
-   pip install -r requirements.txt
-   ```
-
-## 📋 Requirements
-
-- langchain
-- langchain_openai
-- python-dotenv
-- openai
-
-## 🗂️ Repository Structure
-
-- `labs/`: Contains individual tutorial scripts and related files
-- `utils/`: Helper functions and utility scripts
-- `README.md`: This file, providing an overview of the repository
-
 ## 🎓 Tutorials
 
 ### Basics in Jupyter Notebooks / Google Colab
-
 
 1. [**001-tutorial**](labs/001-tutorial.ipynb): Introduction to LangChain basics - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Agentic-Insights/langchain-labs/blob/main/labs/001-tutorial.ipynb)
    - Set up your first LangChain environment
@@ -81,7 +40,41 @@ Before you begin, ensure you have the following installed:
 
 (More tutorials will be added as they are developed)
 
+## 🚀 Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- Python 3.10+
+- pip (Python package manager)
+
+### Installation
+
+1. Clone this repository: 
+   ```
+   git clone https://github.com/Agentic-Insights/langchain-labs
+   cd langchain-labs
+   ```
+2. Create a conda environment (optional but recommended):
+   ```
+   conda create -n langchain-labs python=3.10
+   conda activate langchain-labs
+   ```
+
+3. Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
+
+## 🗂️ Repository Structure
+
+- `labs/`: Contains individual tutorial scripts and related files
+- `README.md`: This file, providing an overview of the repository
+
 ## 🛠️ Usage
+
+For Jupyter notebooks, we recommend using VSCode or the Colab support.
 
 Each tutorial in the `labs/` directory is a self-contained script. To run a tutorial:
 
@@ -90,9 +83,9 @@ Each tutorial in the `labs/` directory is a self-contained script. To run a tuto
    cd labs
    ```
 
-2. Run the desired tutorial script. For most tutorials:
+2. Run the desired tutorial script. For .py file tutorials:
    ```
-   python 001-tutorial.py
+   python 003-tutorial.py
    ```
    For the 005-tutorial which uses Streamlit:
    ```
@@ -111,6 +104,4 @@ Each tutorial in the `labs/` directory is a self-contained script. To run a tuto
 
 Remember to activate your virtual environment before running the tutorials if you're using one.
 
-## 🔑 API Keys
 
-To use OpenAI's models, you need to set up your API key. Create a `.env` file in the root directory and add your OpenAI API key:
