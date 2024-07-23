@@ -1,4 +1,4 @@
-# 🤖 LangChain 101: Agentic AI Tutorial and Samples
+# 🤖 LangChain Labs 101: Agentic AI Tutorial and Samples
 
 Welcome to the LangChain 101 repository! This project serves as a beginner's tutorial and collection of samples for agentic work using LangChain, a powerful framework for building applications with large language models (LLMs).
 
@@ -6,7 +6,7 @@ Welcome to the LangChain 101 repository! This project serves as a beginner's tut
 
 This repository is designed to provide a professional, ground-floor introduction to modern LangChain development, focusing on agentic AI applications. The examples and tutorials here use the latest LangChain APIs and best practices, ensuring you're learning with up-to-date and non-deprecated methods.
 
-## 🎓 Tutorials
+## 🎓 Tutorials - Part 1
 
 ### Basics in Jupyter Notebooks / Google Colab
 
@@ -38,7 +38,7 @@ This repository is designed to provide a professional, ground-floor introduction
    - Implement error handling for more robust applications
    - Learn how to display intermediate steps and search processes to users
 
-(More tutorials will be added as they are developed)
+(Part 2 / More tutorials will be added as they are developed)
 
 ## 🚀 Getting Started
 
