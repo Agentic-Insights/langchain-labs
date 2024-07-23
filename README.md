@@ -24,8 +24,8 @@ Before you begin, ensure you have the following installed:
    ```
 2. Create a conda environment (optional but recommended):
    ```
-   conda create -n langchain-101 python=3.10
-   conda activate langchain-101
+   conda create -n langchain-labs python=3.10
+   conda activate langchain-labs
    ```
 
 3. Install the required packages:
