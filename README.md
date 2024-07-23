@@ -17,10 +17,10 @@ Before you begin, ensure you have the following installed:
 
 ### Installation
 
-1. Clone this repository:
+1. Clone this repository: 
    ```
-   git clone https://github.com/killerapp/langchain-101
-   cd langchain-101
+   git clone https://github.com/Agentic-Insights/langchain-labs
+   cd langchain-labs
    ```
 2. Create a conda environment (optional but recommended):
    ```
