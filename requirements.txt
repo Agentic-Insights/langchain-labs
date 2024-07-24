@@ -4,6 +4,4 @@ langchain_openai
 openai
 langchain-community
 duckduckgo-search
-routellm
 streamlit
-
