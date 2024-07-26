@@ -1,10 +1,30 @@
-# 🤖 LangChain Labs 101: Agentic AI Tutorial and Samples
+# 🤖 LangChain Labs 101: Your Gateway to Agentic AI Tools
 
-Welcome to the LangChain 101 repository! This project serves as a beginner's tutorial and collection of samples for agentic work using LangChain, a powerful framework for building applications with large language models (LLMs).
+Welcome to the LangChain 101 repository! This project serves as an accessible entry point for beginners eager to explore the world of agentic AI, focusing on the crucial concept of tools. LangChain is a powerful framework for building applications with large language models (LLMs), and this tutorial will guide you through your first steps in creating AI-powered tools. You can run all of this in VSCode, or your favorite IDE if it supports Jupyter notebooks and Python. The notebooks also optionally run on Google Colab (lessons 001 and 002), however the rest are built as Python scripts.
 
-## 📚 Overview
+## 🎯 What You'll Learn
 
-This repository is designed to provide a professional, ground-floor introduction to modern LangChain development, focusing on agentic AI applications. The examples and tutorials here use the latest LangChain APIs and best practices, ensuring you're learning with up-to-date and non-deprecated methods.
+- Understand the basics of agentic AI and the importance of tools
+- Create and implement custom AI tools using LangChain
+- Explore how these tools can be used in more complex AI systems
+
+## 🌟 Who This Is For
+
+- **Beginners with basic Python knowledge**: You should have Python and either conda or venv installed. We'll provide conda instructions to get you started.
+- **Experienced developers** looking to dive into agentic AI development
+
+## 🔑 What You'll Need
+
+- Python installed on your system
+- Conda or venv for creating a new environment (we'll use conda in our instructions)
+- An OpenAI API key (We'll use gpt4-mini, which is cost-effective for learning)
+- Basic familiarity with command line interfaces
+
+## 🚀 What to Expect
+
+This tutorial is Part One of a broader series on agentic AI. We'll focus on tools as a fundamental component of agentic systems. You'll learn how to create, implement, and use AI tools, setting the foundation for more advanced agentic AI applications in future tutorials.
+
+Get ready to embark on your journey into the world of agentic AI development!
 
 ## 🎓 Tutorials - Part 1
 
@@ -15,11 +35,10 @@ This repository is designed to provide a professional, ground-floor introduction
    - Learn how to initialize and use a language model
    - Explore basic interactions with the AI
 
-
 2. [**002-tutorial**](labs/002-tutorial.ipynb): Working with prompt templates and RunnableSequence - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Agentic-Insights/langchain-labs/blob/main/labs/002-tutorial.ipynb) 
    - Learn how to load prompts from external files
    - Understand and implement ChatPromptTemplates
-   - Explore the concept of RunnableSequence for creating complex workflows\
+   - Explore the concept of RunnableSequence for creating complex workflows
 
 ### Tool Usage examples
 
@@ -103,5 +122,3 @@ Each tutorial in the `labs/` directory is a self-contained script. To run a tuto
 7. Feel free to modify the scripts and experiment with different parameters or inputs to deepen your understanding of LangChain concepts.
 
 Remember to activate your virtual environment before running the tutorials if you're using one.
-
-
