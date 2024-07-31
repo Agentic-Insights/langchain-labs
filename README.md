@@ -43,7 +43,7 @@ Get ready to embark on your journey into the world of agentic AI development!
 ### Tool Usage examples
 
 3. [**003-tutorial**](labs/003-tutorial.py): Creating custom tools and agents
-   - Implement a simple custom tool (Weather Checker)
+   - Implement a simple custom tool (Mock Weather Checker)
    - Create a React agent using the custom tool
    - Understand how to combine prompts, tools, and agents
 
